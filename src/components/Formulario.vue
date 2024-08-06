@@ -8,6 +8,11 @@
     <pre>
         {{ nombre }} / {{ edad }} / {{ fecha }}
     </pre>
+    <div>
+        <input id="terminos" type="checkbox">
+        <label for="termimnos">Acepta los terminos y condiciones</label>
+        
+    </div>
 </template>
 
 <script setup lang="ts">
